@@ -52,7 +52,6 @@ final class TargetGenerator: TargetGenerating {
                         path: AbsolutePath,
                         graph: Graph) throws -> PBXNativeTarget {
         let graphTraverser = GraphTraverser(graph: graph)
-//        let graphTraverser = ValueGraphTraverser(graph: ValueGraph(graph: graph))
 
         /// Products reference.
         let productFileReference = fileElements.products[target.name]!
