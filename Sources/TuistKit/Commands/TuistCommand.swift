@@ -26,6 +26,7 @@ public struct TuistCommand: ParsableCommand {
                                  CacheCommand.self,
                                  SigningCommand.self,
                                  CleanCommand.self,
+                                 DocCommand.self
                              ])
     }
 
